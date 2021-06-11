@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+.contenedor{
+    min-height: 100vh;
+    background-image: url("fondo.jpeg");
+    background-repeat: 
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nombre{
+    color:black;
+    font-family: cursive;
+    text-align: center;
+    font-size: 80px;
+    margin: 0px;
+}
+.intro{
+    color: black;
+    font-size: monospace;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+.texto{
+    text-align: center;
+}
+.texto button{
+    color: rgb(255, 255, 255);
+    background:#FF95A5;
+    border: none;
+    border-radius: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+}

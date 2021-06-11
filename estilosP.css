@@ -1,0 +1,155 @@
+body{
+    margin:0px;
+}
+
+.redes-sociales{
+    background-color: #f3208a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor-redes a{
+    color: #f5c6c6;
+}
+
+nav{
+    height: 70px;
+    background-color: #FCB3B3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .logotipo-header img{
+    height: 70px;
+}
+
+nav .menu-navegación ul{
+    display: flex;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    list-style: none;
+}
+
+nav .menu-navegación ul li{
+    margin-right: 30px;
+}
+.menu-navegación a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.contenedor-redes i{
+    margin-right: 15px;
+}
+
+.main-section img{
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+.main-section {
+    background-color: #f5c6c6;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.divconinfo{
+    margin-right: 200px;
+    text-align: center;
+}
+
+.main-section h1{
+    font-family:Verdana;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.main-section li{
+    font-family:Verdana;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.boton1 {
+    color: #f4e7d5;
+    background: #f3609d;
+    border:none;
+    border-radius: 10px;
+    font-family: verdana;
+    font-size: 15px;
+    width: 130px; 
+    height: 30px;
+    margin-right: 30px;
+}
+
+.boton2 {
+    color: #f3609d;
+    background: #bccece;
+    border:none;
+    border-radius: 10px;
+    font-family: verdana;
+    font-size: 15px;
+    width: 130px; 
+    height: 30px;
+}
+
+.rejilla {
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+    margin: 15px 0px;
+}
+
+.cuadroM {
+    text-align: center;
+    width: 20%;
+    margin: 10px 20px;
+    border: #FCB3B3 4px solid;
+    border-radius: 15px;
+    padding: 10px 0px;
+    
+}
+
+.rejilla img{
+    height: 100px;
+    border-radius: 150px;
+}
+
+.rejilla h2{
+    font-family: Verdana;
+    font-size: 21px;
+    color: #f3208a;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.rejilla p{
+    font-family:Verdana;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    margin: 0px 28px;
+}
+
+.rejilla button{
+    color: #FCB3B3;
+    background: #f3208a;
+    border:none;
+    border-radius: 10px;
+    font-family: verdana;
+    font-size: 14px;
+    width: 170px; 
+    height: 30px;
+    margin-top: 14px;
+}
